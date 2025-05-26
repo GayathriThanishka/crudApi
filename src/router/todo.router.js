@@ -13,7 +13,7 @@ console.log("router accessed");
 //get
 
 
-todoRouter.get("/details",apiLogger, userListController);
+todoRouter.get("/list",apiLogger, userListController);
 
 //post
 
